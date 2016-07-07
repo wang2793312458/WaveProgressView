@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
     WaveProgressView waveProgressbar4;
     @InjectView(R.id.bt)
     Button bt;
-
     private static final int one = 0X0001;
     private int progress;
     private Handler handler = new Handler() {
