@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <cn.fanrunqi.library.WaveProgressView
+                android:id="@+id/waveProgressbar"
+                android:background="@drawable/circle"
+                android:layout_width="130dp"
+                android:layout_height="130dp" />
+            <cn.fanrunqi.library.WaveProgressView
+                android:layout_marginLeft="30dp"
+                android:id="@+id/waveProgressbar2"
+                android:background="@drawable/circle"
+                android:layout_width="130dp"
+                android:layout_height="130dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <cn.fanrunqi.library.WaveProgressView
+                android:id="@+id/waveProgressbar3"
+                android:background="@drawable/bg_a"
+                android:layout_width="130dp"
+                android:layout_height="130dp" />
+            <cn.fanrunqi.library.WaveProgressView
+                android:layout_marginLeft="40dp"
+                android:id="@+id/waveProgressbar4"
+                android:background="@drawable/rectangle"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
+        android:background="#4cabf5"
+        android:id="@+id/bt"
+        android:text="begin"
+        android:layout_width="100dp"
+        android:layout_height="50dp" />
+</RelativeLayout>
