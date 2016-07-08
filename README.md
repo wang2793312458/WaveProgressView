@@ -30,7 +30,7 @@ compile 'cn.fanrunqi:waveprogress:1.0.0'
 > use like this.
 
 ```
-<cn.fanrunqi.waveprogressview.WaveProgressView
+<cn.fanrunqi.waveprogress.WaveProgressView
                 android:id="@+id/waveProgressbar"
                 android:background="@drawable/circle"
                  <!--android:background="@drawable/bg_a"-->
