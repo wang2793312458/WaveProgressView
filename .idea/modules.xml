@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/WaveProgressView.iml" filepath="$PROJECT_DIR$/WaveProgressView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/waveprogress/waveprogress.iml" filepath="$PROJECT_DIR$/waveprogress/waveprogress.iml" />
     </modules>
   </component>
 </project>
