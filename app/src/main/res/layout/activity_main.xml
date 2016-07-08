@@ -16,12 +16,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <cn.fanrunqi.library.WaveProgressView
+            <cn.fanrunqi.waveprogressview.WaveProgressView
                 android:id="@+id/waveProgressbar"
                 android:background="@drawable/circle"
                 android:layout_width="130dp"
                 android:layout_height="130dp" />
-            <cn.fanrunqi.library.WaveProgressView
+            <cn.fanrunqi.waveprogressview.WaveProgressView
                 android:layout_marginLeft="30dp"
                 android:id="@+id/waveProgressbar2"
                 android:background="@drawable/circle"
@@ -36,12 +36,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <cn.fanrunqi.library.WaveProgressView
+            <cn.fanrunqi.waveprogressview.WaveProgressView
                 android:id="@+id/waveProgressbar3"
                 android:background="@drawable/bg_a"
                 android:layout_width="130dp"
                 android:layout_height="130dp" />
-            <cn.fanrunqi.library.WaveProgressView
+            <cn.fanrunqi.waveprogressview.WaveProgressView
                 android:layout_marginLeft="40dp"
                 android:id="@+id/waveProgressbar4"
                 android:background="@drawable/rectangle"

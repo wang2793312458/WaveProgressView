@@ -5,10 +5,10 @@ import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
+
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 import butterknife.OnClick;
-import cn.fanrunqi.library.WaveProgressView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -41,13 +41,16 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.inject(this);
+
         Init();
     }
+
     private void Init() {
         waveProgressbar2.setCurrent(77, "788M/1024M");
         waveProgressbar2.setWaveColor("#5b9ef4");
@@ -55,9 +58,11 @@ public class MainActivity extends AppCompatActivity {
 
         waveProgressbar3.setWaveColor("#f0b55e");
         waveProgressbar4.setWaveColor("#61f25e");
+
     }
+
     @OnClick(R.id.bt)
     public void onClick() {
-        handler.sendEmptyMessageDelayed(one, 1000);
+                handler.sendEmptyMessageDelayed(one, 1000);
     }
 }
