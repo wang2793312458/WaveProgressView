@@ -8,6 +8,7 @@ import android.widget.Button;
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 import butterknife.OnClick;
+import cn.fanrunqi.waveprogress.WaveProgressView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -48,7 +49,6 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.inject(this);
         Init();
     }
-
     private void Init() {
         waveProgressbar2.setCurrent(77, "788M/1024M");
         waveProgressbar2.setWaveColor("#5b9ef4");
