@@ -46,7 +46,7 @@ The effect：
 
 ## Step 3
 
-> you can set more style in code.
+> you can have more set in the code.
 
 ```
 waveProgressbar.setCurrent(int currentProgress,String currentText); // 77, "788M/1024M"
