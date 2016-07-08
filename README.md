@@ -1,24 +1,24 @@
 # WaveProgressView
 
-most powerful wave load view , you can custom  any style  by this view .
+most powerful wave load view , you can custom  any style  by yourself .
 
 
 The effect：
 
-<img src="http://fanrunqi.github.io/images/7.gif" width = "380" height = "585"  />
+<img src="http://fanrunqi.github.io/images/WaveProgressView/7.gif" width = "380" height = "585"  />
 
 # Usage
 
 ## Step 1
 
-> Copy [WaveProgressView.java](https://github.com/fanrunqi/WaveProgressView/blob/master/library/src/main/java/cn/fanrunqi/library/WaveProgressView.java) to your project.
+> Copy [WaveProgressView.java](https://github.com/fanrunqi/WaveProgressView/blob/master/app/src/main/java/cn/fanrunqi/waveprogressview/WaveProgressView.java) to your project.
 
 ## Step 2
 
 > use like this.
 
 ```
-<cn.fanrunqi.library.WaveProgressView
+<cn.fanrunqi.waveprogressview.WaveProgressView
                 android:id="@+id/waveProgressbar"
                 android:background="@drawable/circle"
                  <!--android:background="@drawable/bg_a"-->
@@ -43,10 +43,13 @@ The effect：
 ```
 
 > or ,use a picture like [xxx.png](https://github.com/fanrunqi/WaveProgressView/blob/master/app/src/main/res/drawable/bg_a.png)
+.
+
+**for scale the image without distortion，your photo should be square**.
 
 ## Step 3
 
-> you can set more style in code.
+> you can have more set in the code.
 
 ```
 waveProgressbar.setCurrent(int currentProgress,String currentText); // 77, "788M/1024M"
