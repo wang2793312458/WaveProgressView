@@ -11,7 +11,19 @@ The effect：
 
 ## Step 1
 
-> Copy [WaveProgressView.java](https://github.com/fanrunqi/WaveProgressView/blob/master/app/src/main/java/cn/fanrunqi/waveprogressview/WaveProgressView.java) to your project.
+> Gradle
+```
+compile 'cn.fanrunqi:waveprogress:1.0.0'
+```
+> Maven
+```
+<dependency>
+  <groupId>cn.fanrunqi</groupId>
+  <artifactId>waveprogress</artifactId>
+  <version>1.0.0</version>
+  <type>pom</type>
+</dependency>
+```
 
 ## Step 2
 
