@@ -43,7 +43,9 @@ The effect：
 ```
 
 > or ,use a picture like [xxx.png](https://github.com/fanrunqi/WaveProgressView/blob/master/app/src/main/res/drawable/bg_a.png)
-, for scale the image without distortion，your photo should be square.
+.
+
+**for scale the image without distortion，your photo should be square**.
 
 ## Step 3
 
