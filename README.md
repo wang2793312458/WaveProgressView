@@ -13,14 +13,14 @@ The effect：
 
 > Gradle
 ```
-compile 'cn.fanrunqi:waveprogress:1.0.0'
+compile 'cn.fanrunqi:waveprogress:1.0.1'
 ```
 > Maven
 ```
 <dependency>
   <groupId>cn.fanrunqi</groupId>
   <artifactId>waveprogress</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <type>pom</type>
 </dependency>
 ```
