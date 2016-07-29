@@ -5,7 +5,7 @@ most powerful wave load view , you can custom  any style  by yourself .
 
 The effect：
 
-<img src="http://fanrunqi.github.io/images/WaveProgressView/7.gif" width = "380" height = "585"  />
+<img src="https://raw.githubusercontent.com/fanrunqi/WaveProgressView/master/screenshots/WaveProgressView.gif" width = "380" height = "585"  />
 
 # Usage
 
